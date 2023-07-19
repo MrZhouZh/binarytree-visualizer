@@ -51,6 +51,12 @@ h1 {
   resize: none;
   font-size: 16px;
   padding: 10px 12px;
+  border-radius: 8px;
+  border-color: #d9d9d9;
+}
+
+.input:focus {
+  border-color: #4096ff;
 }
 
 .generate-btn {
@@ -95,7 +101,7 @@ button {
 }
 button:hover {
   /* border-color: #646cff; */
-  background-color: #3178c6;
+  background-color: #4096ff;
 }
 
 button:focus,
@@ -112,7 +118,7 @@ button:focus-visible {
     color: #747bff;
   }
   button {
-    background-color: #50a4ff;
+    background-color: #1677ff;
     color: #fff;
   }
 }
