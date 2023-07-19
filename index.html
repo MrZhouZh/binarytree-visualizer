@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <title>Binary Tree Visualizer</title>
+  </head>
+  <body>
+    <div id="app">
+      <h3>Binary Tree Visualizer</h3>
+      <div class="input-wrapper">
+        <textarea class="input" name="" id="array" cols="30">[5, 4, 6, null, null, 3, 7]</textarea>
+        <div>
+          <button class="generate-btn" id="generate">Generate</button>
+        </div>
+      </div>
+      <div class="result">
+        <canvas class="visualizer-canvas" id="canvas"></canvas>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
